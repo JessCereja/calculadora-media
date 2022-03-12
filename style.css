@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+}
+
+
+
+header{
+   
+}
+
+#title-page{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #DC143C;
+    font-weight: bolder;
+}
+
+#sibtitle-page{
+    margin-top: 50px;
+}
+
+#descrition{
+    margin-top: 10px;
+}
+
+body{
+    height: 100%;
+    background-image: url(/img/planoFundo2.jpg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border:3px dotted;
+    border-color: #DB7093;
+    background-color: rgba(233, 97, 156, 0.6);
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.input-list{
+    
+    font-weight: bolder;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.form{
+    background: #DB7093;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.input{
+    margin-top: 15px;
+    width: 200px;
+    list-style: none;
+   
+}
+.form{
+    background-color: black;
+    color: #DB7093;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #DB7093;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+#output{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg{
+    font-size: 20px;
+}
+
+#btn{
+    background: #DB7093;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 25px;
+    color:#DC143C;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 0 10px 25px 25px #FF1493;
+}
+
+#btn:hover{
+    background-color: rgb(250, 132, 181);
+    color: black;
+    box-shadow: 0 10px 25px 25px pink;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin-top: 60px;
+    width: 100%;
+    background-color: rgba(233, 97, 156, 0.6);
+}
+
+

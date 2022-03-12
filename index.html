@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Média</title>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <div>
+            <h1 id="title-page">&#10024 Calculadora de Média &#10024</h1>
+            <p id="subtitle-page">Precisando de ajuda para saber se foi aprovado?</p>
+            <p id="descrition">Preencha os campos e descubra se já pode curtir aquelas férias merecidas!</p>
+        </div>
+    </header>
+    <main>
+        <!--input das notas-->
+        <ul class="input-list">
+            <li class="input"> <p>Nome:</p>  <input type="text" id="name" class="form" placeholder="Digite seu nome..." > </li>
+            <li class="input"> <p>Primeira nota:</p> <input type="number" id="primeiranota" class="form" placeholder="Digite a 1ªnota..."></li>
+            <li class="input"> <p>Segunda nota:</p> <input type="number" id="segundanota" class="form" placeholder="Digite a 2ªnota..."></li>
+            <li class="input"> <p>Terceira nota:</p> <input type="number" id="terceiranota" class="form" placeholder="Digite a 3ªnota..."></li>
+            <li class="input"> <p>Quarta nota: </p> <input type="number" id="quartanota" class="form" placeholder="Digite a 4ªnota..."></li>
+        </ul>
+
+        <!--criar output do resultado-->
+        <div id="output">
+            <p id="msg" >Cruzou os dedos? <br>então agora é só apertar &#11015;&#65039; </p>
+            <input type="button" value="Calcular" id="btn" onclick="calcular()">
+        </div>
+    </main>
+</div>
+      <footer>
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+          <img src="img/Jéssica Cereja (1).png" alt="JessCereja" width="10%" height="5%" >
+        </footer>
+   
+    <script src="script.js"></script>
+</body>
+</html>
